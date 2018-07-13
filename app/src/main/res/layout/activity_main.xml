@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_print"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印机" />
+
+    <Button
+        android:id="@+id/btn_read_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="非接MifareOne卡读卡器" />
+
+    <Button
+        android:id="@+id/btn_id_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="二代证读卡器" />
+
+    <Button
+        android:id="@+id/btn_sao_ma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="摄像头扫码" />
+
+    <Button
+        android:id="@+id/btn_nei_sao_ma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内置扫码器" />
+</LinearLayout>
